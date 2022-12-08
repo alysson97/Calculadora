@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="container-top">
+            <h1>Calculadora</h1>
+            <div class="container-calculadora">
+                <span class="hide-span">O que deseja calcular ?</span>
+                <ul>
+                    
+                    <li><a href="index.html">Aritmética</a></li> 
+                    <li><a href="IMC.html">IMC</a></li> 
+                    <li><a href="Juros.html">Juros</a></li>
+                    <li><a href="Converta.html">Converta</a></li> 
+                </ul>
+            </div>
+        </header>
+        
+        
+
+        <main class="container-mid_juros">
+
+            <label for="" name="choice" class="choice" id="simpleInterest">
+                <h4>Juros simples</h4>
+                <input type="radio" name="choice" id="choice">
+            </label>
+            <label for="" name="choice" class="choice" id="compoundInterest">
+                <h4>Juros compostos</h4>
+                <input type="radio" name="choice" id="choice">
+            </label>
+               
+
+
+            <div class="container-form">
+                <form action="" class="juros">
+                    <h2>Juros simples</h2>
+                    <label for="" class="input-field">
+                        <span>Valor: </span>
+                        <input type="number" placeholder="ex: 23500" id="valueJs">
+                    </label>
+                    <label for="" class="input-field">
+                        <span>Período (em meses): </span>
+                        <input type="number" placeholder="ex: 12" id="periodJs">
+                    </label>
+                    <label for="" class="input-field">
+                        <span>taxa:</span>
+                        <input type="number" placeholder="para 1% digite 1" id="rateJs">
+                    </label>
+                </form>
+            </div>
+            <div class="container-form">
+                <form action="" class="juros">
+                    <h2>Juros compostos</h2>
+                    <label for="" class="input-field">
+                        <span>Valor: </span>
+                        <input type="number" placeholder="ex: 23500" id="valueJc">
+                    </label>
+                    <label for="" class="input-field">
+                        <span>Período (em meses): </span>
+                        <input type="number" placeholder="ex: 12" id="periodJc">
+                    </label>
+                    <label for="" class="input-field">
+                        <span>taxa:</span>
+                        <input type="number" placeholder="para 1% digite 1" id="rateJc">
+                    </label>
+                </form>
+            </div>
+            
+    
+        </main>
+
+        <div class="btn-juros">
+            <button class="btn2" id="btn">Calcule!</button>
+        </div>
+        
+
+        <section class="juros-result hide" id="juros-result" >
+            
+            
+            <label for="" class="field-juros">
+                <span>Valor acumulado:</span>
+                <fieldset id="result"></fieldset>
+                
+            </label>
+        </section>
+    
+        <footer class="container-bot">
+            <p>&copy;Aly's Corporation</p>
+            <p>2022</p>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="Juros.js"></script>
+    
+</body>
+</html>

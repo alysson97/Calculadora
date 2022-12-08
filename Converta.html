@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="container-top">
+            <h1>Calculadora</h1>
+            <div class="container-calculadora">
+                <span class="hide-span">O que deseja calcular ?</span>
+                <ul>
+                    
+                    <li><a href="index.html">Aritmética</a></li> 
+                    <li><a href="IMC.html">IMC</a></li> 
+                    <li><a href="Juros.html">Juros</a></li>
+                    <li><a href="Converta.html">Converta</a></li> 
+                </ul>
+            </div>
+        </header>
+        
+        
+
+        <main class="container-mid-converta">
+
+
+            <div class="form-container">
+                <form action="" class="formulario">
+
+                    <h3>velocidade</h3>
+
+                    <label for=""><input type="number" id="velValue"></label>
+
+                    <select name="operation" id="operation1" class="select-converta">
+                        <option value="0">m/s</option>
+                        <option value="1">mp/h</option>
+                        <option value="2">km/h</option>
+                        <option value="3">som</option>
+                        <option value="4">luz</option>
+                    </select>
+                    
+                    <select name="operation" id="operation2" class="select-converta">
+                        <option value="0">m/s</option>
+                        <option value="1">mp/h</option>
+                        <option value="2">km/h</option>
+                        <option value="3">som</option>
+                        <option value="4">luz</option>
+                    </select>
+
+                    
+
+                    <p id="resultVel"></p>
+
+                </form>
+                <button class="btn" id="btn1">Enviar!</button>
+            </div>
+            <div class="form-container">
+                <form action="" class="formulario">
+                    <h3>massa</h3>
+                    <label for=""><input type="text" id="massValue"></label>
+                        <select name="operation" id="operation3" class="select-converta">
+                            <option value="0">grama</option>
+                            <option value="1">kilograma</option>
+                            <option value="2">onças</option>
+                            <option value="3">libras</option>
+                            <option value="4">toneladas</option>
+                        </select>
+                    
+                    <select name="operation" id="operation4" class="select-converta">
+                        <option value="0">grama</option>
+                        <option value="1">kilograma</option>
+                        <option value="2">onças</option>
+                        <option value="3">libras</option>
+                        <option value="4">toneladas</option>
+                    </select>
+
+
+                    <p id="resultMass"></p>
+                </form>
+                <button class="btn" id="btn2">Enviar!</button>
+            </div>
+            <div class="form-container">
+                <form action="" class="formulario">
+                    <h3>moeda</h3>
+                    <label for=""><input type="text" id="coinValue"></label>
+                        <select name="operation" id="operation5" class="select-converta">
+                            <option value="0">real</option>
+                            <option value="1">dólar</option>
+                            <option value="2">libra esterlina</option>
+                            <option value="3">iene</option>
+                            <option value="4">euro</option>
+                        </select>
+                    
+                    <select name="operation" id="operation6" class="select-converta">
+                        <option value="0">real</option>
+                        <option value="1">dólar</option>
+                        <option value="2">libra esterlina</option>
+                        <option value="3">iene</option>
+                        <option value="4">euro</option>
+                    </select>
+
+
+                    <p id="resultCoin"></p>
+                </form>
+                <button class="btn" id="btn3">Enviar!</button>
+            </div>
+            <div class="form-container">
+                <form action="" class="formulario">
+                    <h3>internet</h3>
+                    
+                        <label for=""><input type="text" id="netValue"></label>
+                        <select name="operation" id="operation7" class="select-converta">
+                            <option value="0">bps</option>
+                            <option value="1">kbps</option>
+                            <option value="2">mbps</option>
+                            <option value="3">gbps</option>
+                            <option value="4">tbps</option>
+                        </select>
+                    
+                    <select name="operation" id="operation8" class="select-converta">
+                        <option value="0">bps</option>
+                        <option value="1">kbps</option>
+                        <option value="2">mbps</option>
+                        <option value="3">gbps</option>
+                        <option value="4">tbps</option>
+                    </select>
+
+
+                    <p id="resultNet"></p>
+                </form>
+                <button class="btn" id="btn4">Enviar!</button>
+            </div>  
+    
+        </main>
+
+        <footer class="container-bot">
+            <p>&copy;Aly's Corporation</p>
+            <p>2022</p>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="Converta.js"></script>
+
+    
+</body>
+</html>

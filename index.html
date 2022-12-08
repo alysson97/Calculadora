@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="container-top">
+            <h1>Calculadora</h1>
+            <div class="container-calculadora">
+                <span class="hide-span">O que deseja calcular ?</span>
+                <ul>
+                    
+                    <li><a href="index.html">Aritmética</a></li> 
+                    <li><a href="IMC.html">IMC</a></li> 
+                    <li><a href="Juros.html">Juros</a></li>
+                    <li><a href="Converta.html">Converta</a></li> 
+                </ul>
+            </div>
+        </header>
+    
+        <main class="container-mid">
+
+            <div class="arit-container">
+                
+                <form action="" class="calculadora">
+
+                <label class="field" for="operation">
+                    <span class="span-arit">Escolha sua operação: </span>
+                    <select name="operation" class="select-arit"  id="operation">
+                        <option value="0">Escolha abaixo:</option>
+                        <option value="1">Soma</option>
+                        <option value="2">Subtração</option>
+                        <option value="3">Multiplicação</option>
+                        <option value="4">Divisão</option>
+                    </select>
+                </label>
+
+                <label class="field" for="operation">
+                    <span class="span-arit">selecione o primeiro número: </span>
+                    <input type="number" class="input-arit"  id="n1">
+                </label>
+
+                <label class="field" for="operation">
+                    <span class="span-arit">selecione o segundo número: </span>
+                    <input type="number" class="input-arit" id="n2">
+                </label>
+                
+            </form>
+            <div class="container-result">
+
+                <button class="btn" id="btn">calcule!</button>
+
+                <label class="field" for="operation">
+
+                    <span class="span-arit">O resultado é: </span>
+                    <fieldset id="result" class="fieldset-arit" ></fieldset>
+
+                </label>
+            </div>
+            
+            </div>
+            
+    
+        </main>
+    
+        <footer class="container-bot">
+            <p>&copy;Aly's Corporation</p>
+            <p>2022</p>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="Aritmetica.js"></script>
+    
+</body>
+</html>

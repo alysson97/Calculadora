@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-container">
+
+        <header class="container-top">
+            <h1>Calculadora</h1>
+            <div class="container-calculadora">
+                <span class="hide-span">O que deseja calcular ?</span>
+                <ul>
+                    <li><a href="index.html">Aritmética</a></li> 
+                    <li><a href="IMC.html">IMC</a></li> 
+                    <li><a href="Juros.html">Juros</a></li>
+                    <li><a href="Converta.html">Converta</a></li> 
+                </ul>
+            </div>
+        </header>
+    
+        <main class="container-mid">
+
+
+            <div class="container-p">
+            <p>O corpo humano precisa de energia para poder se manter e essa energia é provida pelo alimento que consumimos. Porém, o que acontece se consumirmos maios ou menos do que o necessário ?</p>
+            <p>Nosso corpo age sempre com sentido de nos fazer sobreviver, portanto, se consumimos menos do que o necessário, ele vai tentar poupar energia e usar nossa fonte de gordura. Caso consumirmos mais do que o necessário, ele guardará essa energia em estoque na forma de gordura.</p>
+            <p>Para sabe se você está dentro do peso ideal, utilizamos um cálculo chamado "IMC" ou "Índice de massa corpórea". </p>
+            <p><strong>Preencha os dados ao lado para saber se você está acima ou abaixo do peso.</strong></p>
+
+                <section id="imcResult" class="imcResult hide">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam mollitia perferendis maiores accusamus. Impedit asperiores voluptatibus quibusdam tenetur tempore natus quisquam voluptate saepe vitae cumque inventore, distinctio nostrum molestiae dicta!</section>
+
+
+            </div>
+
+
+            <div class="calculadora IMC">
+                <form action="" class="formulario">
+                    <label for="IMC">
+                        <input class="input" type="text" name="IMC" placeholder="Qual seu nome ?" id="name">
+                    </label>
+                    <label for="">
+                        <input class="input" type="number" name="IMC" step="0.01" placeholder="altura 'ex: 1.65'" id="height">
+                    </label>
+                    <label for="">
+                        <input class="input" type="number" name="IMC" step="0.01" placeholder="peso 'ex: 53' " id="weight">
+                    </label>
+                    
+                    
+                </form>
+                <button class="btn">calcule!</button>
+            </div>
+            
+            
+        </main>
+    
+        <footer class="container-bot">
+            <p>&copy;Aly's Corporation</p>
+            <p>2022</p>
+        </footer>
+
+    </div>
+
+    
+
+    <script src="IMC.js"></script>
+    
+</body>
+</html>
