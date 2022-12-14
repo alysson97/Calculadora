@@ -698,11 +698,24 @@ p{
         line-height: 0.7rem;
     }
     ul, ul li{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr; */
         row-gap: 0.3rem;
         column-gap: 0.3rem;
         margin: 0;
+
+
+    }
+    .container-top h1{
+        /* display: none; */
+        font-size: 11pt;
+
+    }
+    .container-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
     .hide-span{
@@ -714,7 +727,12 @@ p{
         max-width: 200px;
     }
     .juros-input{
-        max-width: 6rem;
+        max-width: 5.5rem;
+        max-height: 0.6rem;
+    }
+    .btn3{
+        font-size: 11pt;
+        margin-top: 2rem;
     }
     .container-mid_juros{
         flex-direction: column;
@@ -722,6 +740,7 @@ p{
     }
     .container-mid-converta{
         height: initial;
+        margin-top: 1rem;
     }
     .container-bot_converta{
         margin-top: 42px;
