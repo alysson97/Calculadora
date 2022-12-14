@@ -2,7 +2,7 @@
 
 const RESULT = document.getElementById('imcResult');
 
-const BUTTON = document.querySelector('.btn');
+const BUTTON = document.querySelector('.btn2');
 
 
 BUTTON.addEventListener('click', imcCalc);
