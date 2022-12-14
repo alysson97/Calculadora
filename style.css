@@ -267,7 +267,7 @@ body::-webkit-scrollbar-track{
     
     margin: auto 5px;
     
-    justify-items: stretch;
+
     height: 76vh;
 }
 .container-mid_juros{
@@ -695,14 +695,15 @@ p{
 
     body{
         font-size: 10pt;
-        line-height: 0.7rem;
+        line-height: 1rem;
+
     }
     ul, ul li{
         /* display: grid;
         grid-template-columns: 1fr 1fr; */
         row-gap: 0.3rem;
-        column-gap: 0.3rem;
-        margin: 0;
+        column-gap: 0.7rem;
+        margin: 0 auto;
 
 
     }
@@ -734,6 +735,18 @@ p{
         font-size: 11pt;
         margin-top: 2rem;
     }
+    /* .container-mid_imc  .imcResult{
+        font-size: 11pt;
+    } */
+    .container-mid_imc{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    /* .imcResult{
+
+        /* width: 150px;
+    } */
     .container-mid_juros{
         flex-direction: column;
         height: initial;
